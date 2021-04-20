@@ -1,0 +1,8 @@
+# Source: go-demo/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: go-demo-go-demo
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
